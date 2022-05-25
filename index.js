@@ -113,7 +113,7 @@ app.get('/', (req, res) => {
     res.send('Running Genius Server');
 });
 
-app.get('/hero', (req, res) =>{
+app.get('/check', (req, res) =>{
     res.send('Hero meets hero--ku')
 })
 
